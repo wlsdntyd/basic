@@ -44,7 +44,7 @@ public class HtmlController {
 	@ResponseBody
 	public Member htmlObject() {
 		Member member = new Member();
-		member.setName("kim");
+//		member.setName("kim");
 		return member;
 	}
 }
